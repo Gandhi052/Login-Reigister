@@ -1,0 +1,32 @@
+.nav {
+    display: flex;
+    background-color: blueviolet;
+    color: white;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+
+}
+.nav div {
+    display: flex;
+    align-items: center;
+}
+h1{
+    margin-left: 20px;
+}
+.main{
+    height: 110vh;
+    background-image: url("https://s3.amazonaws.com/nikeinc/assets/101972/NikeNews_1B_CORKPLANT_HERO_W-Blazer-DC9265-100_hd_1600.jpg?1617643459");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main div{
+    display: flex;
+    flex-direction: column;
+    color:green;
+    justify-content: center;
+    align-items: center;
+}
